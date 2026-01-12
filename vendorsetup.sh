@@ -21,6 +21,9 @@ FDEVICE="marble"
 #set -o xtrace
 export OF_MAINTAINER="WeiguangTWK"
 
+export FOX_ENABLE_KERNELSU_SUPPORT=1
+export FOX_USE_ZSTD_BINARY=1
+
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep -w $FDEVICE)
    if [ -n "$chkdev" ]; then 
