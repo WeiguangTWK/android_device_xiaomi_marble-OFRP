@@ -19,6 +19,7 @@
 #
 FDEVICE="marble"
 #set -o xtrace
+export OF_MAINTAINER="WeiguangTWK"
 
 export FOX_ENABLE_KERNELSU_SUPPORT=1
 export FOX_USE_ZSTD_BINARY=1
